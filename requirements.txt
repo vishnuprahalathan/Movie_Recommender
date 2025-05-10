@@ -1,15 +1,9 @@
-<<<<<<< HEAD
+streamlit
 pandas
 numpy
 scikit-learn
 scipy
 textblob
-streamlit
-=======
-pandas
-numpy
-scikit-learn
-scipy
-textblob
-streamlit
->>>>>>> 976fefd (Save local changes before rebase)
+
+pip install -r requirements.txt
+python -m textblob.download_corpora
