@@ -1,0 +1,15 @@
+<<<<<<< HEAD
+pandas
+numpy
+scikit-learn
+scipy
+textblob
+streamlit
+=======
+pandas
+numpy
+scikit-learn
+scipy
+textblob
+streamlit
+>>>>>>> 976fefd (Save local changes before rebase)
