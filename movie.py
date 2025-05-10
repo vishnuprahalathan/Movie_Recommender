@@ -12,8 +12,8 @@ from textblob import TextBlob
 
 @st.cache_data
 def load_data():
-    movies = pd.read_csv('C:\\Users\\Vishnu Prahalathan\\Desktop\\MR\\movies.csv')
-    ratings = pd.read_csv('C:\\Users\\Vishnu Prahalathan\\Desktop\\MR\\ratings.csv')
+    movies = pd.read_csv('movies.csv')
+    ratings = pd.read_csv('ratings.csv')
 
  
     ratings = ratings.groupby('userId').filter(lambda x: len(x) > 50)
