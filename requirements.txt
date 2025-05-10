@@ -1,9 +1,6 @@
-streamlit
-pandas
-numpy
-scikit-learn
-scipy
-textblob
-
-pip install -r requirements.txt
-python -m textblob.download_corpora
+streamlit==1.31.1
+pandas==2.2.1
+numpy==1.24.4
+scikit-learn==1.3.2
+scipy==1.11.4
+textblob==0.17.1
